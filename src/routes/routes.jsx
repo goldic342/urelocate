@@ -1,5 +1,5 @@
 import ErrorPage from '../pages/ErrorPage';
-import HomePage from './pages/HomePage';
+import HomePage from '../pages/HomePage';
 
 export const routes = [
     {
