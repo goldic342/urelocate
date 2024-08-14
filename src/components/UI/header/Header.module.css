@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  background-color: #514e51;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.header_h1 {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: color ease-in 0.2s;
+}
+
+
+.header_h1:hover {
+  color: #941DFF;
+}
+.header_list {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+.header_list li {
+  transition: color ease-in 0.1s;
+}
+
+.header_list li:hover {
+  color: #AAABFE;
+}
