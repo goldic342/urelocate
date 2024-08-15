@@ -13,9 +13,8 @@
   transition: color ease-in 0.2s;
 }
 
-
 .header_h1:hover {
-  color: #941DFF;
+  color: #941dff;
 }
 .header_list {
   color: #ffffff;
@@ -25,10 +24,13 @@
   gap: 20px;
 }
 
+.header_list li a,
 .header_list li {
+  color: white;
   transition: color ease-in 0.1s;
 }
 
+.header_list li a:hover,
 .header_list li:hover {
-  color: #AAABFE;
+  color: #aaabfe;
 }
