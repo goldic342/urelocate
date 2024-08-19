@@ -2,9 +2,13 @@ import { Link } from "react-router-dom"
 
 const ErrorPage = () => {
   return (
-    <div>
+    <div className='error'>
+      <div className="error-wrapper">
         <h1>404 Page Not Found</h1>
-        <Link to={"/"}>go home</Link>
+        <p className="error-link">
+          Go to <Link to={"/"}>home</Link>
+        </p>
+      </div>
     </div>
   )
 }

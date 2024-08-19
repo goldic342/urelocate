@@ -41,3 +41,20 @@ button {
   color: #616361;
   max-width: 35rem;
 }
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.error-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.error-link {
+  text-align: center;
+}
