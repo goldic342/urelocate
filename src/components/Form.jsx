@@ -47,17 +47,20 @@ const Form = () => {
     <section className="form-section">
       <h1 className="form-h1">Complete the form</h1>
       <div className="form-form">
-        <Input
-          name="location"
-          onChange={handleChange}
-          error={errors.location}
-        />
-        <Input
-          name="techStack"
-          onChange={handleChange}
-          error={errors.techStack}
-        />
-        <Input name="tools" onChange={handleChange} error={errors.tools} />
+        <div className="form-form-inputs">
+          <Input
+            name="location"
+            onChange={handleChange}
+            error={errors.location}
+          />
+          <Input
+            name="techStack"
+            onChange={handleChange}
+            error={errors.techStack}
+          />
+          <Input name="tools" onChange={handleChange} error={errors.tools} />
+        </div>
+
         <Button onClick={handleSubmit}>Submit</Button>
       </div>
     </section>
