@@ -44,7 +44,7 @@ const Form = () => {
 
   // TODO: When rewriting to MUI change input type to select, add fancy country select
   return (
-    <section className="form-section">
+    <section className="form-section" id="form">
       <h1 className="form-h1">Complete the form</h1>
       <div className="form-form">
         <div className="form-form-inputs">
